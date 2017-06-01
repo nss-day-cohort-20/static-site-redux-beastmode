@@ -79,7 +79,7 @@ for (var i = 0; i < products.length; i++) {
 							<img src="${products[i].imageurl}">
 						</div>
 						<div class="productDetails">
-							<p>${products[i].name}</p>
+							<p><strong>${products[i].name}</strong></p>
 							<p>${products[i].description}</p>
 							<p>${products[i].price}</p>
 						</div>
