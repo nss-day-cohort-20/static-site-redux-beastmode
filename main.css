@@ -83,3 +83,22 @@ div.image img {
 
 
 
+div.img,
+div.img + p,
+/*div.imageText,
+div.imageText p*/ {
+	display: inline;
+}
+
+div.img img {
+	display: inline;
+	max-width: 200px;
+}
+
+div.img > * {
+    vertical-align: middle;
+    line-height: normal;
+}
+
+
+
