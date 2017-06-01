@@ -21,6 +21,8 @@ h1 {
 
 div.container {
 	background-color: #3626A7;
+	max-width: 80%;
+	margin: 0 auto;
 }
 
 article,
@@ -61,7 +63,7 @@ footer a {
 
 header,
 footer {
-	background-color: #FF331F;
+	background-color: #0D0106;
 	color: #FBFBFF;
 }
 
