@@ -1,11 +1,65 @@
+/*General*/
+
+/*Color Pallete:
+black -#0D0106 
+dark blue - #3626A7 
+light blue - #657ED4 
+orange - #FF331F 
+white - #FBFBFF
+*/
+
 body {
 	font-family: 'Bubbler One', sans-serif;
+	background-color: #FF331F;
+	color: #FBFBFF;
 }
 h1 {
 	font-family: 'Permanent Marker', cursive;
 }
 
-nav ul li {
+/*Page Layout*/
 
-	
+div.container {
+	background-color: #3626A7;
 }
+
+article,
+section {
+	background-color: #3626A7;
+}
+
+/*section {
+	background-color: #3626A7;
+}*/
+
+/*div {
+
+}*/
+
+
+/*Header and Footer Styling*/
+header h1,
+nav,
+nav ul,
+nav ul li,
+footer ul,
+footer ul li {
+	display: inline;
+	padding: 10px;
+}
+
+nav a,
+footer a {
+	color: #FBFBFF;
+	text-decoration: none;
+}
+
+header,
+footer {
+	background-color: #FF331F;
+	color: #FBFBFF;
+}
+
+
+
+
