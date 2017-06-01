@@ -28,6 +28,11 @@ section {
 	background-color: #3626A7;
 }
 
+article h1, 
+article h2 {
+	text-align: center;
+}
+
 /*section {
 	background-color: #3626A7;
 }*/
@@ -58,6 +63,17 @@ header,
 footer {
 	background-color: #FF331F;
 	color: #FBFBFF;
+}
+
+/*Image Stying*/
+
+img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+div.image {
+	margin: 0 auto;
 }
 
 
