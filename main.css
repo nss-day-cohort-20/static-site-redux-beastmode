@@ -83,19 +83,19 @@ div.image img {
 
 
 
-div.img,
-div.img + p,
+div.imgleft,
+div.imgleft + p,
 /*div.imageText,
 div.imageText p*/ {
 	display: inline;
 }
 
-div.img img {
+div.imgleft img {
 	display: inline;
 	max-width: 200px;
 }
 
-div.img > * {
+div.imgleft > * {
     vertical-align: middle;
     line-height: normal;
 }
