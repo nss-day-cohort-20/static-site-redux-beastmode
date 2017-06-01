@@ -81,8 +81,6 @@ div.image img {
 	max-width: 100%;
 }
 
-
-
 div.imgleft,
 div.imgleft + p,
 /*div.imageText,
@@ -98,6 +96,25 @@ div.imgleft img {
 div.imgleft > * {
     vertical-align: middle;
     line-height: normal;
+}
+
+article.productGrid {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+div.productCard {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+div.productImage img {
+	width: 200px;
+}
+
+div.productDetails {
+	width: 80%;
 }
 
 
