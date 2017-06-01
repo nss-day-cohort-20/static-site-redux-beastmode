@@ -4,7 +4,7 @@ var products = [
 		name       : "BeastMode Bull",
 		description: "Lorem ipsum dolor sit amet",
 		price      : 19.99,
-		imageurl   : "./img/happyMom.jpg",
+		imageurl   : "./img/energy-drink.jpg",
 		quantity   : 8
 	},
 	
@@ -12,7 +12,7 @@ var products = [
 		name       : "Beast Max",
 		description: "Lorem ipsum dolor sit amet",
 		price      : 24.99,
-		imageurl   : "./img/happyMom.jpg",
+		imageurl   : "./img/pre-workout.jpg",
 		quantity   : 13
 	},
 
@@ -20,23 +20,15 @@ var products = [
 		name       : "Whole Beast",
 		description: "Lorem ipsum dolor sit amet",
 		price      : 40.99,
-		imageurl   : "./img/happyMom.jpg",
+		imageurl   : "./img/vitamin.jpg",
 		quantity   : 32
-	},
-
-	{
-		name       : "BeastMode Bull",
-		description: "Lorem ipsum dolor sit amet",
-		price      : 19.99,
-		imageurl   : "./img/happyMom.jpg",
-		quantity   : 8
 	},
 
 	{
 		name       : "Strong Beast",
 		description: "Lorem ipsum dolor sit amet",
 		price      : 65.99,
-		imageurl   : "./img/happyMom.jpg",
+		imageurl   : "./img/protein.jpg",
 		quantity   : 5
 	},
 
@@ -44,7 +36,7 @@ var products = [
 		name       : "Mode Body",
 		description: "Lorem ipsum dolor sit amet",
 		price      : 59.99,
-		imageurl   : "./img/happyMom.jpg",
+		imageurl   : "./img/bodywash.jpg",
 		quantity   : 70
 	},
 
@@ -52,7 +44,7 @@ var products = [
 		name       : "Mode Face",
 		description: "Lorem ipsum dolor sit amet",
 		price      : 28.99,
-		imageurl   : "./img/happyMom.jpg",
+		imageurl   : "./img/facewash.jpg",
 		quantity   : 18
 	},
 
@@ -60,7 +52,7 @@ var products = [
 		name       : "Mode Mask",
 		description: "Lorem ipsum dolor sit amet",
 		price      : 52.99,
-		imageurl   : "./img/happyMom.jpg",
+		imageurl   : "./img/facemask.jpg",
 		quantity   : 43
 	},
 
@@ -68,7 +60,7 @@ var products = [
 		name       : "Mode Moisture",
 		description: "Lorem ipsum dolor sit amet",
 		price      : 36.99,
-		imageurl   : "./img/happyMom.jpg",
+		imageurl   : "./img/moisture.jpg",
 		quantity   : 23
 	}
 ];
