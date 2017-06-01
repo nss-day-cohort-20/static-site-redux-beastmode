@@ -72,15 +72,18 @@ var products = [
 var productElement = document.getElementById("productGrid");
 
 for (var i = 0; i < products.length; i++) {
-	productElement.innerHTML += `<div class="productCard">
-				 	<div class="productImage">
-						<img src="${products[i].imageurl}">
-					</div>
-					<div class="productDetails">
-						<p>${products[i].name}</p>
-						<p>${products[i].description}</p>
-						<p>${products[i].price}</p>
-					</div>
-				</div>`;
-				console.log(productElement);
-			};
+
+	if (products[i].quantity > 0) {
+		productElement.innerHTML += `<div class="productCard">
+					 	<div class="productImage">
+							<img src="${products[i].imageurl}">
+						</div>
+						<div class="productDetails">
+							<p>${products[i].name}</p>
+							<p>${products[i].description}</p>
+							<p>${products[i].price}</p>
+						</div>
+					</div>`;
+					console.log(productElement);
+				}
+		};
