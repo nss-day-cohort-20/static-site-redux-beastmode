@@ -21,6 +21,8 @@ h1 {
 
 div.container {
 	background-color: #3626A7;
+	max-width: 80%;
+	margin: 0 auto;
 }
 
 article,
@@ -61,7 +63,7 @@ footer a {
 
 header,
 footer {
-	background-color: #FF331F;
+	background-color: #0D0106;
 	color: #FBFBFF;
 }
 
@@ -77,6 +79,25 @@ div.image img {
 	margin: 0 auto;
 	display: block;
 	max-width: 100%;
+}
+
+
+
+div.img,
+div.img + p,
+/*div.imageText,
+div.imageText p*/ {
+	display: inline;
+}
+
+div.img img {
+	display: inline;
+	max-width: 200px;
+}
+
+div.img > * {
+    vertical-align: middle;
+    line-height: normal;
 }
 
 
