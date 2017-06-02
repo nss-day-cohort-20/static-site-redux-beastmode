@@ -85,7 +85,7 @@ for (var i = 0; i < products.length; i++) {
 							<p>${products[i].price}</p>
 						</div>
 					</div>`;
-					console.log(productElement);
+					// console.log(productElement);
 				} else { 
 					productElement.innerHTML += 
 					`<div class="productCard">
@@ -99,7 +99,7 @@ for (var i = 0; i < products.length; i++) {
 							<span>Sold Out!!</span>
 						</div>
 					</div>`;
-					console.log(productElement);
+					// console.log(productElement);
 
 				}
 		};
