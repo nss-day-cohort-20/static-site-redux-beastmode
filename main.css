@@ -15,8 +15,9 @@ html {
 
 body {
 	font-family     : 'Bubbler One', sans-serif;
-	background-color: #FF331F;
-	color           : #FBFBFF;
+	background-color: #DACC3E;
+	color           : #000;
+	letter-spacing: 0.5px;
 	margin          : 0;
 }
 
@@ -78,7 +79,7 @@ footer p {
 /*Page Layout*/
 
 div.container {
-	background-color: #3626A7;
+	background-color: #7FB7BE;
 	max-width       : 80%;
 	margin          : 0 auto;
 	padding         : 1.2em;
@@ -86,7 +87,7 @@ div.container {
 
 article,
 section {
-	background-color: #3626A7;
+	background-color: #7FB7BE;
 }
 
 article h1, 
@@ -122,8 +123,8 @@ div ul li {
 /*flexbox for cards*/
 
 div.productCard {
-	background-color: #657ED4;
-	color           : ##FBFBFF;
+	background-color: #D3F3EE;
+	color           : #000;
 	margin          : 1em;
 	width           : 45%;
 	display         : inline-flex;
