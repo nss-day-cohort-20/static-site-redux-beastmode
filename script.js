@@ -29,7 +29,7 @@ var products = [
 		description: "The most protein packed container on the market, you will be building muscle in no time!",
 		price      : 65.99,
 		imageurl   : "./img/protein.jpg",
-		quantity   : 5
+		quantity   : 0
 	},
 
 	{
@@ -74,7 +74,8 @@ var productElement = document.getElementById("productGrid");
 for (var i = 0; i < products.length; i++) {
 
 	if (products[i].quantity > 0) {
-		productElement.innerHTML += `<div class="productCard">
+		productElement.innerHTML += 
+					`<div class="productCard">
 					 	<div class="productImage">
 							<img src="${products[i].imageurl}">
 						</div>
@@ -85,5 +86,20 @@ for (var i = 0; i < products.length; i++) {
 						</div>
 					</div>`;
 					console.log(productElement);
+				} else { 
+					productElement.innerHTML += 
+					`<div class="productCard">
+					 	<div class="productImage">
+							<img src="${products[i].imageurl}">
+						</div>
+						<div class="productDetails">
+							<p><strong>${products[i].name}</strong></p>
+							<p>${products[i].description}</p>
+							<p>${products[i].price}</p>
+							<span>Sold Out!!</span>
+						</div>
+					</div>`;
+					console.log(productElement);
+
 				}
 		};

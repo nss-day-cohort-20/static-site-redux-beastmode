@@ -145,6 +145,13 @@ div.productDetails {
 	padding: 0 1em;
 }
 
+.productDetails span {
+	font-family: 'Permanent Marker', cursive;
+	font-weight: 600;
+	color: #FF331F;
+	font-size: 1.1;
+}
+
 /*Image Stying*/
 
 #homeImage img {
