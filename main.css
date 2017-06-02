@@ -202,16 +202,17 @@ div.imgleft > * {
 	line-height   : normal;
 }
 
-img {
+img, 
+.productcard {
 	border-radius: 20px;
 }
 
-#call {
+.call {
 	font-size: 2em;
 	text-decoration: underline;
 }
 
-#form {
+.form {
 	text-align: center;
 }
 
