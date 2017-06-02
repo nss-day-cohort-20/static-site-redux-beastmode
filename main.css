@@ -9,14 +9,15 @@ white - #FBFBFF
 */
 
 html {
-	margin: 0;
+	margin : 0;
 	padding: 0;
 }
+
 body {
-	font-family: 'Bubbler One', sans-serif;
+	font-family     : 'Bubbler One', sans-serif;
 	background-color: #FF331F;
-	color: #FBFBFF;
-	margin: 0;
+	color           : #FBFBFF;
+	margin          : 0;
 }
 
 h1 {
@@ -25,13 +26,13 @@ h1 {
 
 strong {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 1.1em;
+	font-size  : 1.1em;
 	font-weight: 600;
 }
 
 a {
 	text-decoration: none;
-	color: #FF331F;
+	color          : #FF331F;
 }
 
 /*Header and Footer Styling*/
@@ -43,29 +44,27 @@ footer ul,
 footer ul li {
 	display: inline;
 	padding: 0 10px;
-	margin: 0;
+	margin : 0;
 }
-
-
 
 nav a,
 footer a {
-	color: #FBFBFF;
+	color          : #FBFBFF;
 	text-decoration: none;
 }
 
 header,
 footer {
 	background-color: #0D0106;
-	color: #FBFBFF;
+	color           : #FBFBFF;
 }
 
 footer {
-	width: 100%;
-	padding: 1em 0;
-	display: inline-flex;
+	width          : 100%;
+	padding        : 1em 0;
+	display        : inline-flex;
 	justify-content: space-around;
-	align-items: center;
+	align-items    : center;
 }
 
 footer p {
@@ -80,9 +79,9 @@ footer p {
 
 div.container {
 	background-color: #3626A7;
-	max-width: 80%;
-	margin: 0 auto;
-	padding: 1.2em;
+	max-width       : 80%;
+	margin          : 0 auto;
+	padding         : 1.2em;
 }
 
 article,
@@ -101,36 +100,36 @@ article:first-child h1 {
 
 div ul {
 	text-align: center;
-/*	padding: 1em;*/
-	margin: 0;
-	padding: 0 0;
+	margin    : 0;
+	padding   : 0 0;
 }
+
 div ul li {
-	display: inline;
-	padding: 0 1.2em;
+	display        : inline;
+	padding        : 0 1.2em;
 	list-style-type: none;
 }
 
 /*Flexbox for grid*/
 #productGrid {
-	display: inline-flex;
-	flex-wrap: wrap;
+	display        : inline-flex;
+	flex-wrap      : wrap;
 	justify-content: space-around;
-	align-items: center;
-	align-content: stretch;
+	align-items    : center;
+	align-content  : stretch;
 }
 
 /*flexbox for cards*/
 
 div.productCard {
 	background-color: #657ED4;
-	color: ##FBFBFF;
-	margin: 1em;
-	width: 45%;
-	display: inline-flex;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
+	color           : ##FBFBFF;
+	margin          : 1em;
+	width           : 45%;
+	display         : inline-flex;
+	flex-wrap       : nowrap;
+	justify-content : space-around;
+	align-items     : center;
 }
 
 div.productImage {
@@ -154,13 +153,13 @@ div.productDetails {
 
 div.image {
 	display: block;
-	width: 100%;
-	margin: 0 auto;
+	width  : 100%;
+	margin : 0 auto;
 }
 
 div.image img {
-	margin: 0 auto;
-	display: block;
+	margin   : 0 auto;
+	display  : block;
 	max-width: 100%;
 }
 
@@ -169,13 +168,13 @@ div.imgleft {
 }
 
 div.imgleft img {
-	display: inline;
+	display  : inline;
 	max-width: 200px;
 }
 
 div.imgleft > * {
-    vertical-align: middle;
-    line-height: normal;
+	vertical-align: middle;
+	line-height   : normal;
 }
 
 
