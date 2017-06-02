@@ -154,6 +154,23 @@ div.productDetails {
 	font-size: 1.1;
 }
 
+/*flexbox for awards*/
+.flexcontainer {
+	margin          : 1em;
+/*	width           : 45%;
+*/	display         : inline-flex;
+	flex-wrap       : nowrap;
+	justify-content : space-around;
+	align-items     : center;
+
+}
+
+.flexcontainer .imageLeft {
+
+}
+
+.flexcontainer .awardText {}
+
 /*Image Stying*/
 
 #homeImage img {
@@ -186,6 +203,19 @@ div.imgleft > * {
 	line-height   : normal;
 }
 
+img, 
+.productcard {
+	border-radius: 20px;
+}
+
+.call {
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+.form {
+	text-align: center;
+}
 
 
 
